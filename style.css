@@ -120,7 +120,7 @@ a {
 a:hover { text-decoration-thickness: 2px; }
 
 footer {
-  padding: 0.5rem 0 4rem;
+  padding: 1.5rem 0 4rem;
   text-align: center;
   color: #444;
 }
@@ -147,6 +147,29 @@ footer img {
 
 .memorial-center {
   text-align: center;
+}
+
+.memorial-notes {
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(34, 34, 34, 0.14);
+}
+
+.memorial-note {
+  margin: 1.6rem 0 0;
+}
+
+.memorial-note p {
+  margin: 0.3rem 0;
+}
+
+.memorial-label {
+  margin-bottom: 0.5rem;
+  font-size: 0.86rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
 }
 
 .invite-page .photos {
